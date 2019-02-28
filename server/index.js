@@ -5,10 +5,10 @@ var io = require('socket.io')(http);
 var Twitter = require('twitter');
  
 var client = new Twitter({
-  consumer_key: 'SIZuQvY6RDYHJnMR7IOLl0Zqr',
-  consumer_secret: '7VQEu03dzjwy9ETpMj7MVuhm9kPQIgty5kPKXab1mN1UaxLAO5',
-  access_token_key: '1099960017900441600-UfGekr5jaaCN2NVR0N5ZUW76L6NJ1P',
-  access_token_secret: 'LG75Km34yWoWrNhliC2mliO9GKsD8W3sWWACDYwD3utIb'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
 var formatter = function formatter (mention) {
